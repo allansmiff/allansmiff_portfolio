@@ -1,0 +1,1 @@
+web: gunicorn curso_avancado.wgsi --log-file -
