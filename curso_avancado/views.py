@@ -27,5 +27,7 @@ class AboutView(TemplateView):
     template_name = 'about.html'
 
 
-#class BuildView(TemplateView):
-    #template_name = 'build.html'
+class Handler405(TemplateView):
+    template_name = '405.html'
+
+
