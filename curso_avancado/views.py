@@ -23,6 +23,9 @@ class ContactView(FormView):
         return super(ContactView, self).form_invalid(form, *args, **kwargs)
 
 
+class AboutView(TemplateView):
+    template_name = 'about.html'
 
 
-
+#class BuildView(TemplateView):
+    #template_name = 'build.html'
